@@ -1,4 +1,5 @@
-# Dockerfile for a Rails application using Nginx and Unicorn
+# Based image with Nginx, Nodejs and Ruby (using rbenv) 
+# Add desired ruby versions to ruby_versions.txt file.
 
 # Select ubuntu as the base image
 FROM ubuntu
